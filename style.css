@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#landing {
+  height: 100vh;
+  width: 100vw;
+  background: url(/img/wallapper.jpg) no-repeat;
+  background-size: cover;
+}
+
+.nav-bottom {
+  min-height: 40px;
+  width: 100%;
+  background-color: #1b1b1b;
+  position: fixed;
+  bottom: 0;
+  user-select: none;
+}
+.search-box {
+  position: relative;
+}
+
+.search-box > input:hover {
+  outline: 2px solid #787878;
+}
+.search-box > input {
+  height: 42px;
+  width: 342px;
+  outline: none;
+  padding-left: 40px;
+  font-size: 0.9rem;
+  color: #787878;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  color: #787878;
+  transform: rotate(90deg);
+}
+
+.hover-effect:hover {
+  background-color: #323232;
+}
+
+.hover-effect:hover > span {
+  color: #6ca9d9 !important;
+}
+
+.notification-area {
+  min-width: 5px;
+  min-height: 100%;
+  background-color: transparent;
+  border-left: 1px solid #787878;
+}
+
+.time-date > p {
+  font-size: 0.7rem;
+}
+
+.d-items {
+  font-size: 0.85rem;
+  position: relative;
+}
+
+.d-items:hover {
+  border: 1px solid #787878;
+}
+.d-items:hover > ::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 10%;
+}
+.pin-bar {
+  position: relative;
+}
+.running {
+  border-bottom: 2px solid #6ca9d9;
+}
